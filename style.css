@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100px;
+
+
+}
+.taskbar{
+
+    background-size: 50px;
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 220;
+    justify-content: center;
+}
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.6s ease-in;
+}
+.startmenu img{
+    height: 570px;
+    width: 470px;
+    border-radius: 2%;
+}
+.right {
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 1px;
+}
+video{
+    height:530px;
+    width: 1050px;
+}
+
+.chimg{
+    width : 75px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.edimg{
+    width : 50px;
+    margin-top: 10px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.recycleimg{
+    width : 50px;
+    margin-top: 10px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.chrome{
+    font-size: 10px;
+    font-family: "Arial Rounded MT Bold";
+    padding-left: 3px;
+    margin: 2px;
+}
+.edge{
+    font-size: 10px;
+    font-family: "Arial Rounded MT Bold";
+    padding-left: 3px;
+    margin: 4px;
+}
+
+.recyle{
+    font-size: 10px;
+    font-family: "Arial Rounded MT Bold";
+    padding-left: 3px;
+    margin: 4px;
+}
+
+
+
